@@ -1,0 +1,3 @@
+messages:
+  prefix: "&6&lADM &8→ "
+  deathMessage: "&a%victim% &7has been killed by &c%murder%" #You can also use these placeholders if you want. %itemname%(i don't recommend using this), (You can use them, and you won't have any problems Coordinates %x% %y% %z%)
