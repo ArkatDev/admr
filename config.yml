@@ -1,3 +1,26 @@
+options:
+  reloadCommand: "admr"
+  reloadPermission: "admr.reload"
+  ranks:
+    rank1:
+      rewardPermission: "bronze.reward"
+      rewardCommand: "eco give %player% 10"
+    rank2:
+      rewardPermission: "silver.reward"
+      rewardCommand: "eco give %player% 20"
+    rank3:
+      rewardPermission: "gold.reward"
+      rewardCommand: "eco give %player% 30"
+    rank4:
+      rewardPermission: "platinum.reward"
+      rewardCommand: "eco give %player% 40"
+    rank5:
+      rewardPermission: "diamond.reward"
+      rewardCommand: "eco give %player% 50"
+
 messages:
-  prefix: "&6&lADM &8→ "
-  deathMessage: "&a%victim% &7has been killed by &c%murder%" #You can also use these placeholders if you want. %itemname%(i don't recommend using this), (You can use them, and you won't have any problems Coordinates %x% %y% %z%)
+  prefix: "&6&lADMR &8→"
+  deathMessage: "&a%victim% &7has been killed by &c%murder% &7on &6%date% &7at coordinates &3X: &b%x% &3Y: &b%y% &3Z: &b%z%"
+  noPermission: "&cYou don't have permission to do this."
+  noConsole: "&cYou can't execute this command from the console."
+  reloaded: "&aPlugin reloaded! &7Check the console for any errors!"
